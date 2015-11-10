@@ -3,7 +3,8 @@ package com.laboon;
 public class JavaLife {
 
 	/**
-	 * 
+	 * This is the main part.
+         *
 	 * @param size Size of world
 	 * @param seed Random number seed
 	 * @param percent Percent of cells alive at beginning
