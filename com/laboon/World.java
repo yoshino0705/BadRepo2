@@ -17,7 +17,7 @@ public class World {
 	Cell[][] _world;
 	
 	/**
-	 * A random number generator.
+	 * A random number generator (actually pseudo-random, of course).
 	 */
 	
 	Random _rng;
@@ -115,7 +115,7 @@ public class World {
 	 */
 	
 	public String toString() {
-		String toReturn = "  ";
+		String toReturn = "> ";
 		for (int j= 0; j < _size; j++) {
 			toReturn += String.valueOf(j % 10);
 		}
