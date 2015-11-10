@@ -17,7 +17,7 @@ public class World {
 	Cell[][] _world;
 	
 	/**
-	 * A random number generator.
+	 * A pseudo-random number generator.
 	 */
 	
 	Random _rng;
@@ -37,6 +37,7 @@ public class World {
 	
 	/**
 	 * Iterated (non-initial) world constructor.
+         *
 	 * @param cells Cells living in the new world
 	 * @param rng Random number generator
 	 */
@@ -115,7 +116,7 @@ public class World {
 	 */
 	
 	public String toString() {
-		String toReturn = "  ";
+		String toReturn = "* ";
 		for (int j= 0; j < _size; j++) {
 			toReturn += String.valueOf(j % 10);
 		}
